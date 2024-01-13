@@ -2,22 +2,14 @@
 //
 
 #include <iostream>
+#include "constants.cpp"
 
-#pragma warning(disable : 4700)
 
 using namespace std;
 
 int main()
 {
-		cout << "char: " << sizeof(char) << " bytes" << endl;
-		cout << "int: " << sizeof(int) << " bytes" << endl;
-		cout << "unsigned int: " << sizeof(unsigned int) << " bytes" << endl;
-		cout << "short: " << sizeof(short) << " bytes" << endl;
-		cout << "short: " << sizeof(short) << " bytes" << endl;
-
-
-
-
+	constants();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
